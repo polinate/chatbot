@@ -37,7 +37,7 @@ DROPOUT = 0.1
 
 EPOCHS = 100
 
-tokenizer = tfds.features.text.SubwordTextEncoder.build_from_corpus(
+tokenizer = tfds.deprecated.text.SubwordTextEncoder.build_from_corpus(
     questions + answers, target_vocab_size=2**13)
 
 # Define start and end token to indicate the start and end of a sentence
