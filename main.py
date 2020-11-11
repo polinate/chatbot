@@ -16,7 +16,7 @@ import helper
 flask_app = Flask(__name__)
 
 import pandas as pd
-df = pd.read_csv('C:\\Users\\user\\.ipynb_checkpoints\\first2.txt')
+df = pd.read_csv('first2.txt')
 df['Input'] = df['Input'].apply(lambda x:str(x))
 df['Target'] = df['Target'].apply(lambda x: str(x))
 questions, answers = df['Input'].tolist(), df['Target'].tolist()
