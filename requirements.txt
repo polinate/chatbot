@@ -7,6 +7,7 @@ cffi==1.14.3
 tensorflow_datasets==4.1.0
 flatbuffers==1.12
 flask==1.1.2
+helper==2.4.2
 gast==0.3.3
 nltk==3.5
 gunicorn==20.0.4
