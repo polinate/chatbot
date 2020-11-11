@@ -7,6 +7,7 @@ attrs==20.2.0
 beautifulsoup4==4.9.3
 cachetools==4.1.1
 cffi==1.14.3
+tensorflow_datasets==4.1.0
 chardet==3.0.4
 decorator==4.4.2
 flatbuffers==1.12
